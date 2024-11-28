@@ -13,3 +13,4 @@
 function arrayDiff(a, b) {
     return a.filter((elem)=> !b.includes(elem) );
   }
+  console.log(process.memoryUsage()) // to get the memory allocation for the type of storage (heap or stack)

@@ -1,4 +1,3 @@
- 
 function nthFibo(n) {
   // Return the n-th number in the Fibonacci Sequence
   let fib = [0, 1]

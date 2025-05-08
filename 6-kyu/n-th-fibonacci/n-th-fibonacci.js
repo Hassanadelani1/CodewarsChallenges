@@ -7,7 +7,7 @@ function nthFibo(n) {
   for(let i = 2; i <= n; i++){
     fib[i] = fib[i - 1] + fib[i - 2]
   }
-  return fib
+  return fib[fib.length - 1]
 }
 //loop through the fib starting from the 2 n number of times
 //for each iteration, populate the fib with the current fib value 

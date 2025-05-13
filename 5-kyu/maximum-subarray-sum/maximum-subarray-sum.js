@@ -18,5 +18,5 @@ var maxSequence = function(arr){
             result.push(arr[0])
         }
     }
-    return result.flat()
+    return result.flat().reduce((total, num)=> total + num, 0)
 }

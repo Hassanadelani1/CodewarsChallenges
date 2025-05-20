@@ -1,6 +1,6 @@
  
 function colourful(number) {
-  const map = new map()
+  const map = new Map()
   for(let i = 0; i < number.length -1; i++){
     let pairs = [number[i], number[i + 1]] 
     let multiplication = number[i] * number[i + 1]

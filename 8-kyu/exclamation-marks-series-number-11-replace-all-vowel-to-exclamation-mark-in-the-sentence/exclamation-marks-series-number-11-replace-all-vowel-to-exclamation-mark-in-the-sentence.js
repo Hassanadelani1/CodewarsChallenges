@@ -1,10 +1,10 @@
  
 function replace(s) {
   //coding and coding....
-  let vowels = /aeiou/gi
+  let vowels = ["a", "e", "i", "o", "u"]
   return s.split("").map((letter)=> {
-    if(vowels.test(letter)){
-      s.replace(letter, "!")
+    if(vowels.includes(letter.toLowerCase())){
+      letter = "!"
     }
   }).join("")
 }

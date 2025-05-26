@@ -1,4 +1,10 @@
-function opposite(number) {
-  //your code here
-  return -1 * number
+ 
+function replace(s) {
+  //coding and coding....
+  let vowels = /aeiou/gi
+  return s.split("").map((letter)=> {
+    if(vowels.test(letter)){
+      s.replace(letter, "!")
+    }
+  })
 }

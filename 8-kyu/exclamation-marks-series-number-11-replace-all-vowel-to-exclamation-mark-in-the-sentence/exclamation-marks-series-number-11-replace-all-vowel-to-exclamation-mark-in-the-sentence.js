@@ -1,3 +1,4 @@
+ 
 function replace(s) {
   //coding and coding....
   let vowels = /aeiou/gi
@@ -5,5 +6,5 @@ function replace(s) {
     if(vowels.test(letter)){
       s.replace(letter, "!")
     }
-  })
+  }).join("")
 }

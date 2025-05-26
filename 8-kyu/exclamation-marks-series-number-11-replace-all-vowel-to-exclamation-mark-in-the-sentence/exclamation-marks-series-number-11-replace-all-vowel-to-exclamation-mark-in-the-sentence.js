@@ -6,5 +6,5 @@ function replace(s) {
     if(vowels.includes(letter.toLowerCase())){
       letter = "!"
     }
-  }).join("")
+  })
 }

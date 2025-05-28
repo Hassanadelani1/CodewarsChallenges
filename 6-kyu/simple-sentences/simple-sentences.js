@@ -1,4 +1,3 @@
- 
 function makeSentence(parts) {
   let sentence = "";
   

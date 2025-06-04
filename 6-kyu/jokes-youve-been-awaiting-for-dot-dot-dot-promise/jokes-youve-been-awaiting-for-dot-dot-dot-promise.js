@@ -1,4 +1,3 @@
- 
 async function sayJoke(apiUrl, jokeId){
   // use mocked `fetch(url)`
   try{

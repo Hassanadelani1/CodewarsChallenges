@@ -5,6 +5,7 @@ function mineLocation(field){
     for(let j = 0; j < field[i].length; j++){
         if(field[i][j] === 1) {
             answer.push(i, j)
+            break
         }
     }
     return answer

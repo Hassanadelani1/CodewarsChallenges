@@ -7,8 +7,7 @@ function mineLocation(field){
             return [i, j]
         }
     }
-}
-    
+}   
 }
 ​
 //problem: look for the number 1 in the 2D array

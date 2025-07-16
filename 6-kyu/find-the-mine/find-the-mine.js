@@ -1,8 +1,9 @@
+ 
 function mineLocation(field){
   let answer = []
-  for(let i = 0; i < arr.length; i++){
-    for(let j = 0; j < arr[i].length; j++){
-        if(arr[i][j] === 1) {
+  for(let i = 0; i < field.length; i++){
+    for(let j = 0; j < field[i].length; j++){
+        if(field[i][j] === 1) {
             answer.push(i, j)
         }
     }
